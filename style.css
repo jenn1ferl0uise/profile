@@ -26,11 +26,23 @@ div {
   .container {
     width:500px;
   }
+  #sidebar{
+    display: none;
+  }
+  #page-content {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 500px) {
   .container {
     width:400px;
+  }
+  #sidebar{
+    display: none;
+  }
+  #page-content {
+    margin-left: 0px;
   }
 }
 
