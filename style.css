@@ -135,11 +135,10 @@ p {
     left: 0px;
     top: 0px;
     bottom: 0px;
-    /*width: 100px;*/
+    width: 100px;
     text-align: center;
-    display: block;
     color: white;
-
+    list-style: none;
 }
 
 #sidebar a {
