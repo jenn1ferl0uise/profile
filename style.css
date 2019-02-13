@@ -131,6 +131,7 @@ p {
 
 #sidebar {
     background-color: #f58788;
+    border
     position: fixed;
     left: 0px;
     top: 0px;
@@ -138,9 +139,12 @@ p {
     width: 100px;
     text-align: center;
     padding: 8px 8px 8px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
     display: block;
-    margin: 20px 0px 20px 0px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  margin: 20px 0px 20px 0px;
 }
