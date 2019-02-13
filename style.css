@@ -29,9 +29,6 @@ div {
   #sidebar{
     display: none;
   }
-  #page-content {
-    margin-left: 0px;
-  }
 }
 
 @media (max-width: 500px) {
@@ -40,9 +37,6 @@ div {
   }
   #sidebar{
     display: none;
-  }
-  #page-content {
-    margin-left: 0px;
   }
 }
 
